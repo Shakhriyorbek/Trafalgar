@@ -42,16 +42,23 @@ header{
     display: inline-block;
     position: relative;
     vertical-align: top;
-    color: #8a8a8a;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
     text-decoration: none;
     margin: 0 40px 0 0;
-    
+    line-height: 23px;
+    /* identical to box height */
 
-    transition: color .1s text;
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+    opacity: 0.5;
+    transition: all .3s ease;
 }
 .nav-link-btn:hover {
-    color: #1F1534;
-    font-weight: 700;
+    opacity: 1;
 }
 
 /* Intro */
@@ -210,6 +217,52 @@ header{
     box-shadow: 10px 40px 50px
     rgba(229, 233, 246, 0.4); 
     z-index: 1000;
+}
+.content1 img{
+    padding: 54px 0 22.5px 39px;
+}
+.content2 img{
+    padding: 54px 0 22.5px 39px;
+}
+.content3 img{
+    padding: 54px 0 22.5px 39px;
+}
+.content4 img{
+    padding: 54px 0 22.5px 39px;
+}
+.content5 img{
+    padding: 54px 0 22.5px 39px;
+}
+.content6 img{
+    padding: 54px 0 22.5px 39px;
+}
+.content-logo {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+    /* identical to box height, or 233% */
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    margin-left: 39px;
+}
+.content-text {
+    width: 100%;
+    max-width: 261px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    margin-left: 39px;
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
 }
 .dots-element-service {
     position: absolute;
@@ -439,7 +492,12 @@ header{
     margin-left: 92px;
 }
 .dots{
-    margin: 0 9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5B9BF3;
+    opacity: 0.3;
+    margin: 5px 9px 0 9px;
 }
 
 /* Articles */
@@ -451,7 +509,38 @@ header{
     justify-content: center;
     overflow: hidden;
     margin-left: -140px;
+    margin-top: -100px;
+    margin-bottom: -69px;
 }
+.article {
+    overflow: hidden;
+}
+.article-title {
+    overflow: hidden;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height, or 156% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    text-align: center;
+    margin-top: 227px;
+}
+
+.article-title::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin: 26px auto 30px;
+    background-color: rgb(0, 0, 0);
+}
+
 .card {
     margin-right: 35px;
     border-radius: 20px;
@@ -527,12 +616,13 @@ header{
     line-height: 60px;
     color: #458FF6;
     mix-blend-mode: normal;
+    margin-left: 710px;   
 }
 
 /* *Footer */
 footer {
     height: 432px;
-
+    margin-top: 201px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 .footer-inner {
@@ -558,7 +648,7 @@ footer {
 .footer-title span {
     width: 41px;
     height: 41px;
-    font-weight: bold;git 
+    font-weight: bold;
     font-size: 26px;
 
     color: #5B9BF3;
