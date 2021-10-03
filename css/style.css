@@ -98,12 +98,19 @@ header{
 .intro-btn{
     padding: 15px 40px;
     text-decoration: none;
-    background: #458FF6;
+    background: #fff;
     border-radius: 55px;
     font-size: 18px;
     line-height: 60px;
     font-weight: 700;
-    color: white;
+    color: #458FF6;
+    transition: all .3s ease;
+    border: 1px solid #458FF6;
+}
+
+.intro-btn:hover {
+    color: #fff;
+    background: #458FF6;
 }
 
 /* Service Intro */
@@ -286,6 +293,12 @@ header{
     line-height: 60px;
     color: #458FF6;
     mix-blend-mode: normal;
+    transition: all .3s ease;
+}
+
+.service-btn-text:hover {
+    color: #fff;
+    background: #458FF6;
 }
 
 /* Providers */
@@ -616,7 +629,12 @@ header{
     line-height: 60px;
     color: #458FF6;
     mix-blend-mode: normal;
-    margin-left: 710px;   
+    margin-left: 710px;
+    transition: all .3s ease;
+}
+.article-btn:hover{
+    color: #fff;
+    background: #458FF6;
 }
 
 /* *Footer */
