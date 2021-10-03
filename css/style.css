@@ -408,7 +408,19 @@ header{
     max-width: 1120px;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
-
+    z-index: 0;
+}
+.comment-decor-1 {
+    position: absolute;
+    z-index: -1;
+    left: 340px;
+    top: 4100px;
+}
+.comment-decor-2 {
+    position: absolute;
+    z-index: 1;
+    left: 1420px;
+    top: 3700px;
 }
 .comment-title{
     text-align: center;
@@ -524,8 +536,24 @@ header{
     margin-left: -140px;
     margin-top: -100px;
     margin-bottom: -69px;
+    z-index: 2;
 }
+.article-img {
+    position: absolute;
+    z-index: -7;
+    right: 0;
+    top: 4500px;
+    opacity: .5;
+}
+.article-img-2 {
+    position: absolute;
+    z-index: -7;
+    left: 100;
+    top: 5200px;
+}
+
 .article {
+    z-index: 2;
     overflow: hidden;
 }
 .article-title {
@@ -642,6 +670,19 @@ footer {
     height: 432px;
     margin-top: 201px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer-img-1 {
+    position: absolute;
+    right: 200px;
+    top: 5570px;
+    z-index: -1;
+}
+.footer-img-2 {
+    position: absolute;
+    left: 0;
+    top: 5975px;
+    z-index: 1;
+    overflow: hidden;
 }
 .footer-inner {
     padding-top: 109px;
